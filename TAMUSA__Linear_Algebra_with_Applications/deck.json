@@ -10,13 +10,7 @@
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
-            "media_files": [
-                "latex-0ccd7c405b9010f0aaeeab7f7235c2249f5a435f.png",
-                "latex-21f737fbd2d263030fad4850435c00842a280b44.png",
-                "latex-30f0c79a49c51c52a5e3c5bf800c9c6ee9f82e0d.png",
-                "latex-559916b463a57b9418917d2bb6e2defb7eefd2fb.png",
-                "latex-906c111f4f170763bc43bfcfc74af97795c6498a.png"
-            ],
+            "media_files": [],
             "name": "Eigenspaces, Eigen Vectors, Orthogonality, Orthonormal, Dot products, Grahm Schmidt Theorem",
             "newLimit": null,
             "newLimitToday": null,
@@ -25,7 +19,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Distance Between Two Vectors",
-                        "[$]D=\\sqrt{\\left (a_{1}-b_{1} \\right )^2 +...+\\left (a_{n}-b_{n} \\right )^2}[/$]"
+                        "\\(D=\\sqrt{\\left (a_{1}-b_{1} \\right )^2 +...+\\left (a_{n}-b_{n} \\right )^2}\\)"
                     ],
                     "guid": "N.dH4Bok+@",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -41,7 +35,7 @@
                     "__type__": "Note",
                     "fields": [
                         "In what notation is a basis written?",
-                        "Set notation using set notation {} with basis vectors written as column vectors.<div>Here is an exaple for vectors a,b, and c.</div><div>[$]\\left \\{ \\begin{bmatrix}</div><div>a_{1}\\\\&nbsp;</div><div>\\vdots \\\\&nbsp;</div><div>a_{n}</div><div>\\end{bmatrix}, \\begin{bmatrix}</div><div>b_{1}\\\\&nbsp;</div><div>\\vdots \\\\&nbsp;</div><div>b_{n}</div><div>\\end{bmatrix}, \\begin{bmatrix}</div><div>c_{1}\\\\&nbsp;</div><div>\\vdots \\\\&nbsp;</div><div>c_{n}</div><div>\\end{bmatrix} \\right \\}[/$]<br /><div><br /></div></div>"
+                        "Set notation using set notation {} with basis vectors written as column vectors.<div>Here is an exaple for vectors a,b, and c.</div><div>\\(\\left \\{ \\begin{bmatrix}a_{1} \\\\ \\vdots \\\\ a_{n} \\end{bmatrix}, \\begin{bmatrix} b_{1} \\\\ \\vdots \\\\ b_{n} \\end{bmatrix}, \\begin{bmatrix} c_{1} \\\\ \\vdots \\\\ c_{n}\\end{bmatrix} \\right \\}\\)</div>"
                     ],
                     "guid": "h{m,hv-YAd",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -56,7 +50,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Orthogonal Compliment",
-                        "[$]S^\\perp = RREF\\left ( S^T \\right )[/$]<div>The result is a set of column vectors.</div>"
+                        "<div>\\(S^\\perp = RREF\\left ( S^T \\right )\\)</div><div>The result is a set of column vectors.</div>"
                     ],
                     "guid": "t;jX46Ksq~",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -65,8 +59,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Orthogonal Projection of W onto V",
-                        "[$]PROJ_{V}W=\\frac{V\\cdot W}{\\left \\| V \\right \\|^2}V[/$]"
+                        "Orthogonal Projection of&nbsp;\\(W\\)&nbsp;onto&nbsp;\\(V\\)",
+                        "\\(PROJ_{V}W=\\frac{V\\cdot W}{\\left \\| V \\right \\|^2}V\\)"
                     ],
                     "guid": "w:}23t=l+?",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -81,7 +75,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Characteristic Polinomial",
-                        "[$]DET\\left ( A-\\lambda I_{n} \\right )[/$]"
+                        "\\(DET\\left ( A-\\lambda I_{n} \\right )\\)"
                     ],
                     "guid": "c}L,,YhUdP",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -105,30 +99,7 @@
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
-            "media_files": [
-                "latex-134004c561e4c0cca193dbf5122e5ca963dd5b7f.png",
-                "latex-174fadd07fd54c9afe288e96558c92e0c1da733a.png",
-                "latex-2d4eeacd0cca92ef3728dd782fa5638981fc75d8.png",
-                "latex-34857b3ba74ce5cd8607f3ebd23e9015908ada71.png",
-                "latex-359c93f77ee9ad4fdfaae8b7c46a2d7ed91a3b29.png",
-                "latex-497c0ac1bad34a57759a80eef26140dc64e28b77.png",
-                "latex-60a2dc63fe417d2dd1b7aaeea2a553e59ff1adf5.png",
-                "latex-75a17db043ac7dae55f37557263113e190cd0895.png",
-                "latex-7af4f46fd0cf5cdbed23e67e7896f64cb380ee52.png",
-                "latex-8122aa89ea6e80784c6513d22787ad86e36ad0cc.png",
-                "latex-85763487cdd65053798627422114ec2f873bc8ac.png",
-                "latex-86ea132e7b3d7a98df05b1ad9b77cdf6d248861d.png",
-                "latex-8fab2ae044cedd262be0f605de2379dc1dd1f4c0.png",
-                "latex-91b110d1da0c6e721e1174ea6a275e31277142cd.png",
-                "latex-9268631031f5f48420fe33efae611b25525d8e65.png",
-                "latex-97fa2de22802999ed7d51354030dc23d4df20432.png",
-                "latex-9ad99798ec4c38e165cf517cb9e02b1c9e824103.png",
-                "latex-9ba7eb386eeb67892ffc3696b27710784e8ba706.png",
-                "latex-cd222bc82e0cd5871ba6885aaa47327e68136643.png",
-                "latex-d7a1e18b1677003e7ae7653c3da8caf53905b3f1.png",
-                "latex-e6ffbe0cb0b8d47bd10eec85fb336adf7694f896.png",
-                "latex-ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png"
-            ],
+            "media_files": [],
             "name": "LInear Transformations, Determinants, Subspaces, and Coordinate Systems",
             "newLimit": null,
             "newLimitToday": null,
@@ -136,7 +107,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\subseteq<br />[/$]",
+                        "\\(\\subseteq\\)",
                         "subset equal"
                     ],
                     "guid": "eUYJGxvV}M",
@@ -152,7 +123,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\in[/$]",
+                        "\\(\\in\\)",
                         "In, a part of"
                     ],
                     "guid": "wM$:E(4%y_",
@@ -167,7 +138,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\subset[/$]",
+                        "\\(\\subset\\)",
                         "Subset"
                     ],
                     "guid": "Qi+Jd^@x$s",
@@ -182,8 +153,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>A set of vectors W in [$]\\mathbb{R}^n[/$]&nbsp;is called a subspace of [$]\\mathbb{R}^n[/$]&nbsp;if it has the&nbsp;following three properties:</div>",
-                        "<div>1. The zero vector belongs to W.</div><div>2. Whenever u and v belong to W, then u + v belongs to W.</div><div>(In this case, we say&nbsp;that W is closed under (vector) addition.)</div><div>3. Whenever u belongs to W and c is a scalar, then cu belongs to W.</div><div>(In this&nbsp;case, we say that W is closed under scalar multiplication.)</div>"
+                        "<div>A set of vectors&nbsp;\\(W\\)&nbsp;in&nbsp;\\(\\mathbb{R}^n\\)&nbsp;is called a subspace of&nbsp;\\(\\mathbb{R}^n\\)&nbsp;if it has the&nbsp;following three properties:</div>",
+                        "<div>1. The zero vector belongs to&nbsp;\\(W\\).</div><div>2. Whenever&nbsp;\\(u\\)&nbsp;and&nbsp;\\(v\\)&nbsp;belong to&nbsp;\\(W\\), then&nbsp;\\(u + v\\)&nbsp;belongs to&nbsp;\\(W\\).</div><div>(In this case, we say&nbsp;that&nbsp;\\(W\\)&nbsp;is closed under (vector) addition.)</div><div>3. Whenever&nbsp;\\(u\\)&nbsp;belongs to&nbsp;\\(W\\)&nbsp;and&nbsp;\\(c\\)&nbsp;is a scalar, then&nbsp;\\(cu\\)&nbsp;belongs to&nbsp;\\(W\\).</div><div>(In this&nbsp;case, we say that&nbsp;\\(W\\)&nbsp;is closed under scalar multiplication.)</div>"
                     ],
                     "guid": "m3/9@A,DS`",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -227,7 +198,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Domain",
-                        "The dimension or row count of vector.<div>ex.[$]\\begin{bmatrix}</div><div>&nbsp;x_{1}\\\\&nbsp;</div><div>&nbsp;x_{2}\\\\</div><div>x_{3}</div><div>\\end{bmatrix}[/$]</div>"
+                        "The dimension or row count of vector.<div>ex.&nbsp;\\(\\begin{bmatrix}x_{1}\\\\ x_{2}\\\\x_{3}\\end{bmatrix}\\)</div>"
                     ],
                     "guid": "J|{l/1@U^Q",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -255,7 +226,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Determinant of a matrix",
-                        "<div>[$]i[/$]= Row Num</div><div>[$]j[/$]= Col Num</div>Det[$]A=\\sum (-1)^{i+j}a_{i,j}[/$]Det[$]A_{i,j}[/$]"
+                        "\\(i\\)<span style=\"white-space: pre;\"> </span>= Row Num<br>\\(j\\)&nbsp;= Col Num<div>\\(DetA=\\sum (-1)^{i+j}a_{i,j}DetA_{i,j}\\)</div>"
                     ],
                     "guid": "PUk$/P[w`+",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -268,8 +239,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Null Space of A",
-                        "<div>The set of the span of the free vaialbes of A</div>1. RREF Matrix A<div>2. Set the result to Ax=0.</div><div><br /></div><div>null[$]A=\\left \\x\\in \\mathbb{R}^{n}| Ax=0 \\right \\}</div><div>[/$]</div><div><br /></div><div>Null Space is a subspace containing the Free Variables of A</div>"
+                        "Null Space of&nbsp;\\(A\\)",
+                        "<div>The set of the span of the free vaialbes of&nbsp;\\(A\\)</div><div>1. RREF Matrix&nbsp;\\(A\\)</div><div>2. Set the result to&nbsp;\\(Ax=0\\).</div><div><br></div><div>\\(nullA = \\left( x \\in {R}^{n} | Ax=0 \\right)\\)</div><div>Null Space is a subspace containing the Free Variables of&nbsp;\\(A\\)</div>"
                     ],
                     "guid": "Q(4w+s&d!=",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -284,8 +255,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Column Space of A",
-                        "Span of the set of columns of Matrix A written as Vectors.<div>1. express all columns as a set of vectors using set braces ex. col[$]A={[a],[b],[c]}[/$]</div><div><br /></div><div>Column space is a subspace containing the columns of A</div>"
+                        "Column Space of&nbsp;\\(A\\)",
+                        "Span of the set of columns of Matrix&nbsp;\\(A\\)&nbsp;written as Vectors.<div>1. express all columns as a set of vectors using set braces ex.&nbsp;\\(colA={[a],[b],[c]}\\)</div><div><br></div><div>Column space is a subspace containing the columns of&nbsp;\\(A\\)</div>"
                     ],
                     "guid": "vtZ]t#ZVs^",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -299,8 +270,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Row Space of A",
-                        "The set of the span of non-zero rows of A.<div>1. express all non-zero rows as a set of vectors using set braces ex. row[$]A={[a],[b],[c]}[/$]</div><div><br /></div><div>Row Space is a subspace containing the non-zero rows of A</div>"
+                        "Row Space of&nbsp;\\(A\\)",
+                        "The set of the span of non-zero rows of&nbsp;\\(A\\).<div>1. express all non-zero rows as a set of vectors using set braces ex.&nbsp;\\(rowA={[a],[b],[c]}\\)</div><div><br></div><div>Row Space is a subspace containing the non-zero rows of&nbsp;\\(A\\)</div>"
                     ],
                     "guid": "A|LUp6+|~n",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -329,7 +300,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "|",
+                        "\\(|\\)",
                         "Such that"
                     ],
                     "guid": "DMpHeGprUN",
@@ -343,8 +314,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "A generating set of&nbsp;[$]\\mathbb{R}^{n}[/$] has how many vectors?",
-                        "[$]\\geq n[/$]"
+                        "A generating set of&nbsp;\\(\\mathbb{R}^{n}\\)&nbsp;has how many vectors?",
+                        "\\(\\geq n\\)"
                     ],
                     "guid": "A*1@v./![[",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -360,8 +331,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "A linearly independent set of&nbsp;[$]\\mathbb{R}^{n}[/$] has how many vectors?",
-                        "[$]\\leq n[/$]"
+                        "A linearly independent set of&nbsp;\\(\\mathbb{R}^{n}\\)&nbsp;has how many vectors?",
+                        "\\(\\leq n\\)"
                     ],
                     "guid": "k;L[Mbd2(L",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -377,8 +348,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "A basis set of&nbsp;[$]\\mathbb{R}^{n}[/$] has how many vectors?",
-                        "[$]n[/$]"
+                        "\\(A\\)&nbsp;basis set of&nbsp;\\(\\mathbb{R}^{n}\\)&nbsp;has how many vectors?",
+                        "\\(n\\)"
                     ],
                     "guid": "B88%hzxi>{",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -395,7 +366,7 @@
                     "__type__": "Note",
                     "fields": [
                         "How to find the Basis of a matrix.",
-                        "1. RREF the matrix<div>2. The bassis is the set of vectors that make up whatever you are finding.</div><div>ex. The Basis of a vector are the vectors that ocupy the pivot columns.</div><div>ex. the Basis of a null space are the non pivot vectors that make up the set of Ax=0</div>"
+                        "1. RREF the matrix<div>2. The bassis is the set of vectors that make up whatever you are finding.</div><div>ex. The Basis of a vector are the vectors that ocupy the pivot columns.</div><div>ex. the Basis of a null space are the non pivot vectors that make up the set of&nbsp;\\(Ax=0\\)</div>"
                     ],
                     "guid": "zXyJH].sex",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -404,8 +375,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Given the coordinate vector [$]\\left [ u \\right ]_{B}[/$] and set [$]B[/$] where&nbsp;[$]B[/$] is the basis. What is [$]u[/$]&nbsp;with respect to the basis.",
-                        "The result of [$]B \\left [ u \\right ]_{B}[/$].&nbsp;"
+                        "Given the coordinate vector&nbsp;\\(\\left [ u \\right ]_{B}\\)&nbsp;and set&nbsp;\\(B\\)&nbsp;where&nbsp;\\(B\\)&nbsp;is the basis. What is&nbsp;\\(u\\)&nbsp;with respect to the basis.",
+                        "The result of&nbsp;\\(B\\)&nbsp;\\(\\left [ u \\right ]_{B}\\).&nbsp;"
                     ],
                     "guid": "dCrf7#y*iz",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -419,8 +390,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Given the vector&nbsp;[$]u[/$] and the basis&nbsp;[$]B[/$] what is the coordinate vector [$]u[/$] with respect to [$]B[/$] or [$]\\left [ u \\right ]_{B}[/$]?",
-                        "1. Create an augmented matrix of&nbsp;[$]B[/$] and&nbsp;[$]u[/$]. ex.&nbsp;\\left [ B | u \\right ]<div><div>2. Set the augmented matrix to RREF.</div><div>3.&nbsp;[$]u[/$] will be transformed into&nbsp;[$]\\left [ u \\right ]_{B}[/$]</div><div><br /></div><div>Alternatively:&nbsp;[$]\\left [ u \\right ]_{B}=B^{-1}u[/$]</div></div>"
+                        "Given the vector&nbsp;\\(u\\)&nbsp;and the basis&nbsp;\\(B\\)&nbsp;what is the coordinate vector&nbsp;\\(u\\)&nbsp;with respect to&nbsp;\\(B\\)&nbsp;or&nbsp;\\(\\left [ u \\right ]_{B}\\)?",
+                        "1. Create an augmented matrix of&nbsp;\\(B\\)&nbsp;and&nbsp;\\(u\\). ex.&nbsp;\\(\\left [ B | u \\right ]\\)<div><div>2. Set the augmented matrix to RREF.</div><div>3.&nbsp;\\(u\\)&nbsp;will be transformed into&nbsp;\\(\\left [ u \\right ]_{B}\\)</div><div><br></div><div>Alternatively:&nbsp;\\(\\left [ u \\right ]_{B}=B^{-1}u\\)</div></div>"
                     ],
                     "guid": "d{sjpr[vLo",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -464,7 +435,7 @@
                     "__type__": "Note",
                     "fields": [
                         "What are some other terms for finding a determinant?",
-                        "Co-factor expansion<div><br /><div>Minor Expansion</div></div>"
+                        "Co-factor expansion<div><br><div>Minor Expansion</div></div>"
                     ],
                     "guid": "qk50xy,ikq",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -506,7 +477,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Standard Matrix",
-                        "The standard matrix is the coeficent matrix C of the Transformation matrix T as shown below.<div>[$]T\\begin{bmatrix}</div><div>x_{1}\\\\&nbsp;</div><div>\\vdots \\\\</div><div>x_{n}&nbsp;</div><div>\\end{bmatrix}=</div><div>\\begin{bmatrix}</div><div>a_{11}x_{1} &amp; \\cdots &nbsp;&amp; a_{1n}x_{n}\\\\&nbsp;</div><div>\\vdots &amp; \\ddots &nbsp;&amp; \\vdots\\\\&nbsp;</div><div>&nbsp;a_{m1x_{1}}&amp; \\cdots &amp; a_{mn}x_{n}</div><div>\\end{bmatrix}[/$]</div><div>[$]C=\\begin{bmatrix}</div><div>a_{11} &amp; \\cdots &nbsp;&amp; a_{1n}\\\\&nbsp;</div><div>\\vdots &amp; \\ddots &nbsp;&amp; \\vdots\\\\&nbsp;</div><div>&nbsp;a_{m1}&amp; \\cdots &amp; a_{mn}</div><div>\\end{bmatrix}[/$]</div>"
+                        "The standard matrix is the coeficent matrix&nbsp;\\(C\\)&nbsp;of the Transformation matrix&nbsp;\\(T\\)&nbsp;as shown below.<div>\\(T\\begin{bmatrix}x_{1} \\\\ \\vdots \\\\ x_{n}\\end{bmatrix}=\\begin{bmatrix} a_{11} x_{1} &amp; \\cdots &amp; a_{1n}x_{n} \\\\ \\vdots &amp; \\ddots &amp; \\vdots \\\\ a_{m1x_{1}} &amp; \\cdots &amp; a_{mn}x_{n} \\end{bmatrix}C=\\begin{bmatrix} a_{11} &amp; \\cdots &amp; a_{1n} \\\\ \\vdots &amp; \\ddots &amp; \\vdots \\\\ a_{m1} &amp; \\cdots &amp; a_{mn}\\end{bmatrix}\\)</div>"
                     ],
                     "guid": "A7AP]vO;B$",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -530,45 +501,7 @@
             "dyn": 0,
             "extendNew": 100,
             "extendRev": 50,
-            "media_files": [
-                "latex-019e9892786e493964e145e7c5cf7b700314e53b.png",
-                "latex-05dfb77c15ba6d31722bb6a0d08690fbf0b433c1.png",
-                "latex-06d845c48ba9d355d9cb31ed7b86e9c324deaf9c.png",
-                "latex-0772d40b854f1a5c295788bff7cc8d15ff99d9c6.png",
-                "latex-077bb744456edff865f6a063f4b5bcee26766d5d.png",
-                "latex-1604f607d89656ff5ba0fc97aadc6edc61e84d8e.png",
-                "latex-2c0e8431b4f3ede3c81aaf7db10cc0778cfedcf6.png",
-                "latex-2f960094315d60883495f9b74148e17487ee9584.png",
-                "latex-3018d0d61e8132340ba5de556b565c7258879b66.png",
-                "latex-3ccdf867f23beb7ef14414adc037317a93b0de65.png",
-                "latex-4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png",
-                "latex-4e9191a5007067cff8f6d73f4d3419e08238f00b.png",
-                "latex-57ee5125358c0606c9b588580ddfa66f83e607b7.png",
-                "latex-634caa86270d3fd3c91f7e633859915dc28717d1.png",
-                "latex-66527e06c6535e274072f3b327f6d88f553e9b1c.png",
-                "latex-7651a2a59717949b10c188044ba3d6a1b36830c4.png",
-                "latex-8200a6e1ded84b5518d0047af714970e9fdc0e0a.png",
-                "latex-8252554243e6baa91c9a21c177447a87054053d7.png",
-                "latex-8d88ef9bd534daa78e070d183eff6708b55b5c2a.png",
-                "latex-9d870b51f8b81bcbd670714936795dc362adc670.png",
-                "latex-a313816ee5c62c033954be265a9f848b3487125f.png",
-                "latex-af9c381a8b7784eb223bcccc2ca7398d4f55cd52.png",
-                "latex-afab1e067df87d510da9e1c12fb3af5b8e585dd8.png",
-                "latex-b99d863a7b22abffb15f6969a7df386bf74c9dec.png",
-                "latex-c02a2964c3063e8081ee315b547399a4a9707f44.png",
-                "latex-c623eb348af90d784da2c424961b4732731a259f.png",
-                "latex-cb19222ff8b1529354c2a940507fd7bb52ef8114.png",
-                "latex-cc7c4b51e06b26289d792878cbf9efac28aac903.png",
-                "latex-d43b1102f3c1dd5cec60a23dd93de533dfeeeac8.png",
-                "latex-d8995a4c19ad7dcfc0ca53a74036bec7830bfddf.png",
-                "latex-dff4998b3bd1548ae001bbe7950c192a1011d5ac.png",
-                "latex-e90c74e5629c92367e634f5afeb9ad1500a0c1a5.png",
-                "latex-f0274a320f763a3092f812662d915d9eab9ee318.png",
-                "latex-f5ae77d9cd1245919dcbce7fb243494df047b699.png",
-                "latex-f8af7735f5c4205816638151be448accdd9dc159.png",
-                "latex-fa2fa899f0afb05d6837885523503a2d4df434f9.png",
-                "latex-ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png"
-            ],
+            "media_files": [],
             "name": "Matrix Operations and Properties",
             "newLimit": null,
             "newLimitToday": null,
@@ -577,7 +510,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Elementary Row Operations: Interchange",
-                        "<div>Exchanging one row for another and vise versa.</div><div><br /></div>[$]\\begin{bmatrix}<div>1 &amp; 2 &amp; 3\\\\&nbsp;</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>7 &amp; 8 &amp; 9</div><div>\\end{bmatrix}</div><div>R_{1} \\leftrightarrow R_{2}</div><div>\\begin{bmatrix}</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>1 &amp; 2 &amp; 3\\\\&nbsp;</div><div>7 &amp; 8 &amp; 9</div>\\end{bmatrix}[/$]"
+                        "<div>Exchanging one row for another and vise versa.</div><div><br></div>\\(\\begin{bmatrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\7&amp;8&amp;9\\end{bmatrix}R_{1} \\leftrightarrow R_{2}\\begin{bmatrix}4&amp;5&amp;6\\\\1&amp;2&amp;3\\\\7&amp;8&amp;9\\end{bmatrix}\\)"
                     ],
                     "guid": "wrOVtir<cY",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -592,7 +525,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Elementary Row Operations: Scaling",
-                        "<div>Multiplying a row by a scalar and replacing that row with the result.</div><div><br /></div><div>[$]\\begin{bmatrix}</div><div>1 &amp; 2 &amp; 3\\\\&nbsp;</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>7 &amp; 8 &amp; 9</div><div>\\end{bmatrix}</div><div>2R_{1} \\rightarrow R_{1}</div><div>\\begin{bmatrix}</div><div>2 &amp; 4 &amp; 6\\\\&nbsp;</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>7 &amp; 8 &amp; 9</div><div>\\end{bmatrix}[/$]</div>"
+                        "<div>Multiplying a row by a scalar and replacing that row with the result.</div><div><br></div><div>\\(\\begin{bmatrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\7&amp;8&amp;9\\end{bmatrix}2R_{1}\\rightarrow R_{1}\\begin{bmatrix}2&amp;4&amp;6\\\\4&amp;5&amp;6\\\\7&amp;8&amp;9\\end{bmatrix}\\)<br></div>"
                     ],
                     "guid": "JnJLl2%SH]",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -607,7 +540,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Elementary Row Operations: Row Addition",
-                        "<div>Adding or subtracting one row from another and replacing one of the rows with the result.</div><div><br /></div><div>[$]\\begin{bmatrix}</div><div>1 &amp; 2 &amp; 3\\\\&nbsp;</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>7 &amp; 8 &amp; 9</div><div>\\end{bmatrix}</div><div>R_{3} + 2R_{1} &nbsp;\\rightarrow R_{3}</div><div>\\begin{bmatrix}</div><div>1 &amp; 2 &amp; 3\\\\&nbsp;</div><div>4 &amp; 5 &amp; 6\\\\&nbsp;</div><div>9 &amp; 12 &amp; 15</div><div>\\end{bmatrix}[/$]</div>"
+                        "<div>Adding or subtracting one row from another and replacing one of the rows with the result.</div><div><br></div><div>\\(\\begin{bmatrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\7&amp;8&amp;9\\end{bmatrix}R_{3}+2R_{1}\\rightarrow R_{3}\\begin{bmatrix}1&amp;2&amp;3\\\\4&amp;5&amp;6\\\\9&amp;12&amp;15\\end{bmatrix}\\)<br></div>"
                     ],
                     "guid": "L/@/]f9Iej",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -638,7 +571,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Rank",
-                        "<div>For any matrix A, the rank of A is</div><div>the number of nonzero rows in the</div><div>reduced row echelon form (RREF) of A.</div><div><br /></div><div><div>Rank(A) is the number of pivot&nbsp;columns in matrix A</div></div><div><br /></div><div>Rank is also referred to as a count of the number of pivots in a matrix.</div>"
+                        "<div>For any matrix&nbsp;\\(A\\), the rank of&nbsp;\\(A\\)&nbsp;is</div><div>the number of nonzero rows in the</div><div>reduced row echelon form (RREF) of&nbsp;\\(A\\).</div><div><br></div><div>\\(Rank(A)\\)&nbsp;is the number of pivot&nbsp;columns in matrix&nbsp;\\(A\\)</div><div><br></div><div>Rank is also referred to as a count of the number of pivots in a matrix.</div>"
                     ],
                     "guid": "oP~$}b%er(",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -652,7 +585,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Nullity",
-                        "<div>For any matrix A, the nullity of A,</div><div>denoted nullity(A) is the number of pivots subtracted from the column count.</div><div><br /></div><div><div>Nullity(A) is the number of&nbsp;nonpivot columns in matrix A.</div></div><div><br /></div><div>Columns - Rank = Nullity</div>"
+                        "<div>For any matrix&nbsp;\\(A\\), the nullity of&nbsp;\\(A\\),</div><div>denoted&nbsp;\\(nullity(A)\\)&nbsp;is the number of pivots subtracted from the column count.</div><div><br></div><div>\\(Nullity(A)\\)&nbsp;is the number of&nbsp;nonpivot columns in matrix&nbsp;\\(A\\).</div><div><br></div><div>\\(Columns - Rank = Nullity\\)<br></div>"
                     ],
                     "guid": "pyqddJ)X%=",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -666,7 +599,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Linear Independence",
-                        "For an mxn matrix A:<div><br></div><div>The columns of A are linearly independent if:</div><div><br></div><div>Rank(A) = n (Column Count)</div><div><br></div><div>Nullity(A) = zero</div><div><br></div><div>There is a pivot position in each column.</div>"
+                        "For an mxn matrix&nbsp;\\(A\\):<div></div><div>The columns of&nbsp;\\(A\\)&nbsp;are linearly independent if:</div><div></div><div>\\(\\displaylines{\nRank(A) = n(Column Count) \\\\\nNullity(A) = zero}\\)</div><div></div><div>There is a pivot position in each column.</div>"
                     ],
                     "guid": "E!lam~d&gm",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -680,7 +613,7 @@
                     "__type__": "Note",
                     "fields": [
                         "How do you check for consistency",
-                        "<div>The RREF of the augmented matrix</div><div>[ A | b] has no row of the form</div><div>[0 0 … 0 | c ] where c not equal to 0.</div><div><br /></div><div>ex. [0 0 0|1] is inconsistent.</div>"
+                        "<div>The RREF of the augmented matrix</div><div>[ A | b] has no row of the form</div><div>[0 0 … 0 | c ] where c not equal to 0.</div><div><br></div><div>ex. [0 0 0|1] is inconsistent.</div>"
                     ],
                     "guid": "rCu6d!Fa{T",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -693,8 +626,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "How does Rank relate to the number of solutions of Ax=b?",
-                        "<div><div>If Ax =b is the matrix of a consistent system</div><div>of linear equations:</div></div><div><br /></div><div>There is a unique solution if the rank is equal to the number of columns of the matrix.</div>"
+                        "How does Rank relate to the number of solutions of&nbsp;\\(Ax=b\\)?",
+                        "<div><div>If&nbsp;\\(Ax =b\\)&nbsp;is the matrix of a consistent system</div><div>of linear equations:</div></div><div><br></div><div>There is a unique solution if the rank is equal to the number of columns of the matrix.</div>"
                     ],
                     "guid": "g=|i@E,b-|",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -707,8 +640,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "How does nullity relate to the number of solutions in Ax=b?",
-                        "<div>If Ax=b is the matrix of a consistent system</div><div>of linear equations:</div><div><br /></div><div><div>Ax=b has a unique solution if and only if</div><div>nullity(A) = 0.</div></div><div><br /></div><div><div>Ax=b has infinitely many solutions if and</div><div>only if nullity(A) &gt; 0.</div></div>"
+                        "How does nullity relate to the number of solutions in&nbsp;\\(Ax=b\\)?",
+                        "<div>If&nbsp;\\(Ax=b\\)&nbsp;is the matrix of a consistent system</div><div>of linear equations:</div><div><br></div><div><div>\\(Ax=b\\)&nbsp;has a unique solution if and only if</div><div>\\(nullity(A) = 0.\\)<br></div></div><div><br></div><div>\\(Ax=b\\)<span style=\"white-space: pre;\">&nbsp;</span>has infinitely many solutions if and<div>only if&nbsp;\\(nullity(A) &gt; 0\\).</div></div>"
                     ],
                     "guid": "pcHfm2!mK|",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -722,7 +655,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Matrix Products (Matrix Multiplication)",
-                        "<div><div>Matrix multiplication requires you multiply the Columns of A by the Rows of B adding the result one of the columns of the resulting matrix.</div><div><br /></div><div>[$]A=\\begin{bmatrix}</div><div>1 &amp; 2\\\\&nbsp;</div><div>3 &amp; 4</div><div>\\end{bmatrix}B=\\begin{bmatrix}</div></div><div>1 \\\\</div><div>2</div><div>\\end{bmatrix}</div><div>[/$]</div><div>[$]AB=\\begin{bmatrix}</div><div>1 &amp; 2\\\\&nbsp;</div><div>3 &amp; 4</div><div>\\end{bmatrix}\\begin{bmatrix}</div><div><div>1 \\\\</div><div>2</div><div>\\end{bmatrix}[/$]</div></div><div>[$]AB = 1\\begin{bmatrix}</div><div>1\\\\</div><div>3</div><div>\\end{bmatrix}+ 2\\begin{bmatrix}</div><div>2\\\\</div><div>4</div><div>\\end{bmatrix}[/$]</div><div>[$]AB=\\begin{bmatrix}</div><div>5\\\\</div><div>11</div><div>\\end{bmatrix}</div><div>[/$]</div>"
+                        "<div><div>Matrix multiplication requires you multiply the Columns of A by the Rows of B adding the result one of the columns of the resulting matrix.</div><div>\\(\\displaylines{A=\\begin{bmatrix}1&amp;2\\\\3&amp;4\\end{bmatrix}  \\\\ B=\\begin{bmatrix}1\\\\2\\end{bmatrix} \\\\AB=\\begin{bmatrix}1&amp;2\\\\3&amp;4\\end{bmatrix}\\begin{bmatrix}1\\\\2\\end{bmatrix} \\\\ AB=1\\begin{bmatrix}1\\\\3\\end{bmatrix}+2\\begin{bmatrix}2\\\\4\\end{bmatrix}  \\\\ AB=\\begin{bmatrix}5\\\\11\\end{bmatrix}}\\)<br></div><div></div></div><div></div>"
                     ],
                     "guid": "o#1<W[~NPy",
                     "note_model_uuid": "66a0d5aa-b6e6-11ed-9edf-1110bb0abf82",
@@ -736,7 +669,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Inverse Matrix",
-                        "<div>An nxn matrix A is invertible if there is an nxn</div><div>matrix B such that&nbsp;[$]AB = BA = I_{n}[/$]</div>"
+                        "<div>An&nbsp;\\(n\\times n\\)&nbsp;matrix&nbsp;\\(A\\)&nbsp;is invertible if there is an&nbsp;\\(n\\times n\\)matrix&nbsp;\\(B\\)&nbsp;such that&nbsp;\\(AB = BA = I_{n}\\)</div>"
                     ],
                     "guid": "BPB%#7i&&Y",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -750,7 +683,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Inverse of an inverse matrix.",
-                        "If [$]A[/$]&nbsp;is invertible, then&nbsp;[$]A^{-1}[/$]&nbsp;is invertible and [$](A^{-1})^{-1}=A[/$]"
+                        "If&nbsp;\\(A\\)&nbsp;is invertible, then&nbsp;\\(A^{-1}\\)&nbsp;is invertible and&nbsp;\\((A^{-1})^{-1}=A\\)"
                     ],
                     "guid": "L!BE[YhDIT",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -764,7 +697,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Inverse of Matrix Product (Multiplication)",
-                        "If [$]A[/$]&nbsp;and [$]B[/$]&nbsp;are invertible, then [$]AB[/$]&nbsp;is&nbsp;invertible and&nbsp;[$](AB)^{-1}=B^{-1}A^{-1}[/$]"
+                        "If&nbsp;\\(A\\)&nbsp;and&nbsp;\\(B\\)&nbsp;are invertible, then&nbsp;\\(AB\\)&nbsp;is&nbsp;invertible and&nbsp;\\((AB)^{-1}=B^{-1}A^{-1}\\)"
                     ],
                     "guid": "cP:[QNJ?d-",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -778,7 +711,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Inverse of Matrix Transpose",
-                        "<div>If [$]A[/$] is invertible, then [$]A^{T}[/$] is invertible and [$](A^{T})^{-1}= (A^{-1})^{T}[/$]</div>"
+                        "<div>If&nbsp;\\(A\\)&nbsp;is invertible, then&nbsp;\\(A^{T}\\)&nbsp;is invertible and&nbsp;\\((A^{T})^{-1}= (A^{-1})^{T}\\)</div>"
                     ],
                     "guid": "cV?,C6Mp#;",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -792,7 +725,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Elementary Matrix",
-                        "An elementary matrix [$]E[/$]&nbsp;is a identity matrix&nbsp;[$]I_{n}[/$] that has had elementary row ooperations performed on it."
+                        "An elementary matrix&nbsp;\\(E\\)&nbsp;is a identity matrix&nbsp;\\(I_{n}\\)&nbsp;that has had elementary row ooperations performed on it."
                     ],
                     "guid": "u6Gwv,Y^_<",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -806,8 +739,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Rotation Matrix (Counter Clockwise) in&nbsp;[$]R^{2}[/$]",
-                        "[$]A_{\\Theta }=\\begin{bmatrix}<div>\\cos \\Theta &amp; -\\sin \\Theta \\\\</div><div>\\sin \\Theta &amp; \\cos \\Theta</div>\\end{bmatrix}\\begin{bmatrix}<div>x_{1} \\\\</div><div>x_{2}\\end{bmatrix}[/$]</div>"
+                        "Rotation Matrix (Counter Clockwise) in&nbsp;\\(R^{2}\\)",
+                        "\\(A_{\\Theta }=\\begin{bmatrix}\\cos\\Theta&amp;-\\sin\\Theta\\\\\\sin\\Theta&amp;\\cos\\Theta\\end{bmatrix}\\begin{bmatrix}x_{1}\\\\x_{2}\\end{bmatrix}\\)"
                     ],
                     "guid": "E9,v938Z$H",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -822,7 +755,7 @@
                     "__type__": "Note",
                     "fields": [
                         "Convert Degrees to Radians",
-                        "[$]\\frac{x^{\\circ}}{1} \\times \\frac{\\pi}{180}[/$]"
+                        "\\(\\frac{x^{\\circ}}{1} \\times \\frac{\\pi}{180}\\)"
                     ],
                     "guid": "N:.f|!{}BH",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -836,7 +769,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\sin 90^{\\circ}[/$]",
+                        "\\(\\sin 90^{\\circ}\\)",
                         "1"
                     ],
                     "guid": "LP:L??B(:*",
@@ -851,7 +784,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\cos 90^{\\circ}[/$]",
+                        "\\(\\cos 90^{\\circ}\\)",
                         "0"
                     ],
                     "guid": "feeaS1x,9y",
@@ -866,7 +799,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\sin 0^{\\circ}[/$]",
+                        "\\(\\sin 0^{\\circ}\\)",
                         "0"
                     ],
                     "guid": "l#<YTQ][%n",
@@ -881,7 +814,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\cos 0^{\\circ}[/$]",
+                        "\\(\\cos 0^{\\circ}\\)",
                         "1"
                     ],
                     "guid": "C~5D/>0v~b",
@@ -896,8 +829,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "[$]\\sin 60^{\\circ}[/$]",
-                        "[$]\\frac{\\sqrt{3}}{2}[/$]"
+                        "\\(\\sin 60^{\\circ}\\)",
+                        "\\(\\frac{\\sqrt{3}}{2}\\)"
                     ],
                     "guid": "Pzp,:}jWRl",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -911,8 +844,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>[$]\\cos 60^{\\circ}[/$]</div><div><br /></div>",
-                        "[$]\\frac{1}{2}[/$]"
+                        "<div>\\(\\cos 60^{\\circ}\\)</div>",
+                        "\\(\\frac{1}{2}\\)"
                     ],
                     "guid": "xWBjBM&/R[",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -926,8 +859,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>[$]\\sin 45^{\\circ}[/$]</div><div><br /></div>",
-                        "[$]\\frac{\\sqrt{2}}{2}[/$]"
+                        "\\(\\sin 45^{\\circ}\\)",
+                        "\\(\\frac{\\sqrt{2}}{2}\\)"
                     ],
                     "guid": "lX<[&#>DGH",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -941,8 +874,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>[$]\\cos 45^{\\circ}[/$]</div>",
-                        "[$]\\frac{\\sqrt{2}}{2}[/$]"
+                        "\\(\\cos 45^{\\circ}\\)",
+                        "\\(\\frac{\\sqrt{2}}{2}\\)"
                     ],
                     "guid": "DQtFUDCJQ&",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -956,8 +889,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>[$]\\sin 30^{\\circ}[/$]</div><div><br /></div>",
-                        "[$]\\frac{1}{2}[/$]"
+                        "\\(\\sin 30^{\\circ}\\)",
+                        "\\(\\frac{1}{2}\\)"
                     ],
                     "guid": "D0#f.TTp_E",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -971,8 +904,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "<div>[$]\\cos 30^{\\circ}[/$]</div>",
-                        "[$]\\frac{\\sqrt{3}}{2}[/$]"
+                        "\\(\\cos 30^{\\circ}\\)",
+                        "\\(\\frac{\\sqrt{3}}{2}\\)"
                     ],
                     "guid": "qe>*%`lz@m",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -1016,8 +949,8 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Similar Matricies [$]~[/$]",
-                        "Let [$]A[/$] and [$]B[/$] be nxn matrices.<div><br /></div><div><div>[$]A[/$] is similar to [$]B[/$] iff there is an invertible matrix&nbsp;[$]P[/$] such that [$]B = P^{-1}AP[/$]</div></div>"
+                        "Similar Matricies ~",
+                        "Let&nbsp;\\(A\\)&nbsp;and&nbsp;\\(B\\)&nbsp;be&nbsp;\\(n\\times n\\)&nbsp;matrices.<div><br></div><div>\\(A\\)&nbsp;is similar to&nbsp;\\(B\\)&nbsp;iff there is an invertible matrix&nbsp;\\(P\\)&nbsp;such that\\(B = P^{-1}AP\\)</div>"
                     ],
                     "guid": "cQMb_.GyO?",
                     "note_model_uuid": "c147b692-b6e9-11ed-9edf-1110bb0abf82",
@@ -1135,7 +1068,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
