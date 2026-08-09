@@ -1,56 +1,58 @@
 ```markdown
 # Linear Algebra Applications Anki
 
-Enhance your Anki flashcards with the power of linear algebra! This project leverages MathJax to integrate complex mathematical expressions into your flashcards, supporting collaborative deck creation through robust version control using C, Go, R, and Git.
+Enhance your Anki flashcards with powerful linear algebra capabilities using MathJax. The `Linear_Algebra_Applications_Anki` project enables collaborative deck creation, leveraging C, Go, R, and Git for seamless version control.
 
 ## Features
 
-- **MathJax Integration**: Seamlessly incorporate linear algebra equations into Anki flashcards.
-- **Collaborative Deck Creation**: Utilize Git for version control to collaborate on deck creation and updates.
-- **Multi-language Support**: Developed using C, Go, and R, providing flexibility and power.
-- **Open Source**: Fully open-source, encouraging community contributions and transparency.
+- **MathJax Integration**: Easily incorporate linear algebra expressions into your Anki flashcards.
+- **Collaborative Deck Creation**: Use Git for version control to collaborate with others on deck development.
+- **Multi-language Support**: Built using C, Go, and R to provide robust and efficient functionality.
+- **Open Source**: Contribute to and modify the project under an open-source license.
+- **Extensive Documentation**: Comprehensive guides and documentation to help you get started and contribute.
 
-## Setup and Installation
+## Installation
 
-To get started with Linear Algebra Applications Anki, follow these steps:
+To set up `Linear_Algebra_Applications_Anki`, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/Linear_Algebra_Applications_Anki.git
+   cd Linear_Algebra_Applications_Anki
    ```
-2. **Install Dependencies**:
-   Ensure you have C, Go, and R installed on your system. You may need additional libraries for each language.
 
-3. **Build the Project**:
-   Navigate to the project directory and run the build scripts for each language as needed.
+2. **Build the Project**:
+   - Ensure you have C, Go, and R installed on your system.
+   - Run the build scripts provided in the `scripts` directory:
+     ```bash
+     ./scripts/build.sh
+     ```
+
+3. **Install Dependencies**:
+   - Follow the instructions in `docs/INSTALL.md` for detailed dependency installation.
 
 ## Usage
 
-1. **Create or Edit Flashcards**:
-   Use the provided templates to create flashcards with embedded MathJax equations.
-   
-2. **Version Control**:
-   Utilize Git to track changes and collaborate with others. Use standard Git commands to commit, push, and pull changes.
+- **Creating Flashcards**:
+  - Use the provided templates in the `templates` directory to create new flashcards.
+  - Incorporate MathJax for linear algebra expressions as needed.
 
-3. **Collaborate**:
-   Share your decks and collaborate with others using GitHub.
+- **Collaborating on Decks**:
+  - Use Git to manage versions and collaborate with others.
+  - Push your changes to the repository and create pull requests for review.
 
 ## Contribution Guidelines
 
-We welcome contributions from the community! To contribute:
+We welcome contributions from the community. To contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push to your fork.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes and push them to your fork.
 4. Submit a pull request with a detailed description of your changes.
 
-Please ensure your code adheres to the project's coding standards and includes appropriate documentation.
+Please refer to `CONTRIBUTING.md` for more details.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Enhance your learning experience by integrating sophisticated mathematical concepts into your Anki flashcards, and join a community of learners and developers passionate about open-source education tools.
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
 ```
