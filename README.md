@@ -1,58 +1,73 @@
 ```markdown
-# Linear Algebra Applications Anki
+# Linear_Algebra_Applications_Anki
 
-Enhance your Anki flashcards with powerful linear algebra capabilities using MathJax. The `Linear_Algebra_Applications_Anki` project enables collaborative deck creation, leveraging C, Go, R, and Git for seamless version control.
+Enhance your Anki flashcards with the power of linear algebra using MathJax, C, Go, and R. This open-source project allows you to seamlessly collaborate and manage versions using Git. 
+
+## Overview
+
+This repository provides tools and scripts to integrate complex linear algebra concepts into Anki flashcards. By combining the computational efficiency of C, the simplicity of Go, and the statistical prowess of R, users can create dynamic and interactive flashcards that enhance learning. Using MathJax, mathematical expressions are rendered beautifully, facilitating a deeper understanding of linear algebra concepts.
 
 ## Features
 
-- **MathJax Integration**: Easily incorporate linear algebra expressions into your Anki flashcards.
-- **Collaborative Deck Creation**: Use Git for version control to collaborate with others on deck development.
-- **Multi-language Support**: Built using C, Go, and R to provide robust and efficient functionality.
-- **Open Source**: Contribute to and modify the project under an open-source license.
-- **Extensive Documentation**: Comprehensive guides and documentation to help you get started and contribute.
+- **MathJax Integration:** Beautifully render LaTeX-style mathematical expressions.
+- **Multi-language Support:** Utilize C, Go, and R to perform complex computations.
+- **Version Control:** Seamless collaboration with Git for managing changes.
+- **Open Source:** Free to use, modify, and distribute under the MIT License.
+- **Cross-platform Compatibility:** Works on various operating systems with support for Bash scripting.
+- **AI-enhanced Documentation:** Comprehensive and easy-to-understand documentation.
 
-## Installation
+## Setup and Installation
 
-To set up `Linear_Algebra_Applications_Anki`, follow these steps:
+1. **Clone the Repository:**
 
-1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/Linear_Algebra_Applications_Anki.git
    cd Linear_Algebra_Applications_Anki
    ```
 
-2. **Build the Project**:
-   - Ensure you have C, Go, and R installed on your system.
-   - Run the build scripts provided in the `scripts` directory:
-     ```bash
-     ./scripts/build.sh
-     ```
+2. **Install Dependencies:**
 
-3. **Install Dependencies**:
-   - Follow the instructions in `docs/INSTALL.md` for detailed dependency installation.
+   Ensure you have Go, R, and a C compiler installed on your system. Additionally, you'll need Anki and MathJax:
 
-## Usage
+   - Install Go: [Go Installation](https://golang.org/doc/install)
+   - Install R: [R Installation](https://cran.r-project.org/)
+   - Install a C Compiler (e.g., GCC)
+   - Install Anki: [Anki Installation](https://apps.ankiweb.net/)
+   - MathJax is included within the project.
 
-- **Creating Flashcards**:
-  - Use the provided templates in the `templates` directory to create new flashcards.
-  - Incorporate MathJax for linear algebra expressions as needed.
+3. **Build the Project:**
 
-- **Collaborating on Decks**:
-  - Use Git to manage versions and collaborate with others.
-  - Push your changes to the repository and create pull requests for review.
+   Compile the necessary components using the provided scripts.
+
+   ```bash
+   ./build.sh
+   ```
+
+## Usage Examples
+
+To create a new Anki deck with enhanced linear algebra capabilities:
+
+1. Prepare your data and scripts using the provided templates.
+2. Use the command-line interface to generate flashcards:
+
+   ```bash
+   ./anki_generator.sh path/to/your/data
+   ```
+
+3. Import the generated deck into Anki and start learning!
 
 ## Contribution Guidelines
 
-We welcome contributions from the community. To contribute:
+We welcome contributions from the community! To contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
 3. Commit your changes and push them to your fork.
-4. Submit a pull request with a detailed description of your changes.
+4. Open a pull request with a detailed description of your changes.
 
-Please refer to `CONTRIBUTING.md` for more details.
+Please follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/) while interacting in the project.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
